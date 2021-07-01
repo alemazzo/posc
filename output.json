@@ -1,0 +1,1832 @@
+{
+    "grub": {},
+    "applications": {
+        "apt": [
+            {
+                "name": "adduser",
+                "version": "3.118ubuntu2"
+            },
+            {
+                "name": "aircrack-ng",
+                "version": "1:1.6+git20200821.87bf5727-1"
+            },
+            {
+                "name": "apparmor",
+                "version": "3.0.0-0ubuntu1"
+            },
+            {
+                "name": "apt-transport-https",
+                "version": "2.1.10ubuntu0.3"
+            },
+            {
+                "name": "apt-utils",
+                "version": "2.1.10ubuntu0.3"
+            },
+            {
+                "name": "apt",
+                "version": "2.1.10ubuntu0.3"
+            },
+            {
+                "name": "aptitude",
+                "version": "0.8.12-1ubuntu4"
+            },
+            {
+                "name": "base-files",
+                "version": "11ubuntu14"
+            },
+            {
+                "name": "base-passwd",
+                "version": "3.5.47"
+            },
+            {
+                "name": "bash-completion",
+                "version": "1:2.11-2ubuntu1"
+            },
+            {
+                "name": "bash",
+                "version": "5.0-6ubuntu2"
+            },
+            {
+                "name": "beignet-opencl-icd",
+                "version": "1.3.2-7build1"
+            },
+            {
+                "name": "bind9-dnsutils",
+                "version": "1:9.16.6-3ubuntu1.2"
+            },
+            {
+                "name": "bleachbit",
+                "version": "3.9.0-1"
+            },
+            {
+                "name": "bsdutils",
+                "version": "1:2.36-3ubuntu1"
+            },
+            {
+                "name": "busybox-static",
+                "version": "1:1.30.1-4ubuntu9.1"
+            },
+            {
+                "name": "bzip2",
+                "version": "1.0.8-4ubuntu2"
+            },
+            {
+                "name": "ca-certificates",
+                "version": "20210119~20.10.1"
+            },
+            {
+                "name": "cargo",
+                "version": "0.47.0-1~exp1ubuntu1~20.10.1"
+            },
+            {
+                "name": "cloc",
+                "version": "1.86-1"
+            },
+            {
+                "name": "code",
+                "version": "1.57.1-1623975230-pop1~1624462631~20.10~f5f88c9"
+            },
+            {
+                "name": "command-not-found",
+                "version": "20.10.1"
+            },
+            {
+                "name": "console-setup-linux",
+                "version": "1.195ubuntu2"
+            },
+            {
+                "name": "console-setup",
+                "version": "1.195ubuntu2"
+            },
+            {
+                "name": "coreutils",
+                "version": "8.32-3ubuntu1"
+            },
+            {
+                "name": "cpio",
+                "version": "2.13+dfsg-3"
+            },
+            {
+                "name": "cron",
+                "version": "3.0pl1-136ubuntu1"
+            },
+            {
+                "name": "curl",
+                "version": "7.68.0-1ubuntu4.3"
+            },
+            {
+                "name": "dash",
+                "version": "0.5.10.2-7"
+            },
+            {
+                "name": "dbeaver-ce",
+                "version": "7.3.1~ubuntu16.04"
+            },
+            {
+                "name": "dbus",
+                "version": "1.12.20-1ubuntu1"
+            },
+            {
+                "name": "dctrl-tools",
+                "version": "2.24-3"
+            },
+            {
+                "name": "debconf-i18n",
+                "version": "1.5.74"
+            },
+            {
+                "name": "debconf",
+                "version": "1.5.74"
+            },
+            {
+                "name": "debianutils",
+                "version": "4.11.2"
+            },
+            {
+                "name": "default-jre",
+                "version": "2:1.11-72"
+            },
+            {
+                "name": "default-libmysqlclient-dev",
+                "version": "1.0.5ubuntu2"
+            },
+            {
+                "name": "dh-python",
+                "version": "4.20200925"
+            },
+            {
+                "name": "diffutils",
+                "version": "1:3.7-3ubuntu1"
+            },
+            {
+                "name": "discord",
+                "version": "0.0.15"
+            },
+            {
+                "name": "distro-info-data",
+                "version": "0.44ubuntu1.5"
+            },
+            {
+                "name": "distro-info",
+                "version": "0.23ubuntu1"
+            },
+            {
+                "name": "dmidecode",
+                "version": "3.2-3"
+            },
+            {
+                "name": "dmsetup",
+                "version": "2:1.02.167-1ubuntu3"
+            },
+            {
+                "name": "dnsutils",
+                "version": "1:9.16.6-3ubuntu1.2"
+            },
+            {
+                "name": "dosfstools",
+                "version": "4.1-2build1"
+            },
+            {
+                "name": "dpkg",
+                "version": "1.20.5ubuntu2"
+            },
+            {
+                "name": "e2fsprogs",
+                "version": "1.45.6-1ubuntu1"
+            },
+            {
+                "name": "ed",
+                "version": "1.16-1"
+            },
+            {
+                "name": "eject",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "espeak",
+                "version": "1.48.04+dfsg-8build1"
+            },
+            {
+                "name": "fdisk",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "figlet",
+                "version": "2.2.5-3"
+            },
+            {
+                "name": "file",
+                "version": "1:5.38-5"
+            },
+            {
+                "name": "findutils",
+                "version": "4.7.0-1ubuntu2"
+            },
+            {
+                "name": "firefox-locale-ar",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-de",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-en",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-es",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-fr",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-it",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-ja",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-pt",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-ru",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-zh-hans",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "firefox-locale-zh-hant",
+                "version": "89.0.2+build1-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "fonts-arphic-ukai",
+                "version": "0.2.20080216.2-5"
+            },
+            {
+                "name": "fonts-arphic-uming",
+                "version": "0.2.20080216.2-10ubuntu2"
+            },
+            {
+                "name": "fonts-cascadia-code",
+                "version": "2005.15-1"
+            },
+            {
+                "name": "fonts-noto-cjk-extra",
+                "version": "1:20190410+repack1-2"
+            },
+            {
+                "name": "fonts-noto-cjk",
+                "version": "1:20190410+repack1-2"
+            },
+            {
+                "name": "fonts-noto-core",
+                "version": "20200323-1build1"
+            },
+            {
+                "name": "fonts-noto-ui-core",
+                "version": "20200323-1build1"
+            },
+            {
+                "name": "friendly-recovery",
+                "version": "0.2.41ubuntu0.20.10.1"
+            },
+            {
+                "name": "ftp",
+                "version": "0.17-34.1.1"
+            },
+            {
+                "name": "gcc-10-base",
+                "version": "10.3.0-1ubuntu1~20.10"
+            },
+            {
+                "name": "gir1.2-glib-2.0",
+                "version": "1.66.1-1"
+            },
+            {
+                "name": "git",
+                "version": "1:2.27.0-1ubuntu1.1"
+            },
+            {
+                "name": "gnome-getting-started-docs-de",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-es",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-fr",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-it",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-ja",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-pt",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-ru",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-zh-hk",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-getting-started-docs-zh-tw",
+                "version": "3.36.2+git20201004.1-0ubuntu1"
+            },
+            {
+                "name": "gnome-tweaks",
+                "version": "3.34.0-4"
+            },
+            {
+                "name": "gnome-user-docs-de",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-es",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-fr",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-it",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-ja",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-pt",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-ru",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnome-user-docs-zh-hans",
+                "version": "3.38.1-1ubuntu1"
+            },
+            {
+                "name": "gnupg",
+                "version": "2.2.20-1ubuntu1.1"
+            },
+            {
+                "name": "gpgv",
+                "version": "2.2.20-1ubuntu1.1"
+            },
+            {
+                "name": "grep",
+                "version": "3.4-1"
+            },
+            {
+                "name": "grub2",
+                "version": "2.04-1ubuntu35.6"
+            },
+            {
+                "name": "gstreamer1.0-libav",
+                "version": "1.18.0-1"
+            },
+            {
+                "name": "gstreamer1.0-plugins-bad",
+                "version": "1.18.0-2ubuntu6"
+            },
+            {
+                "name": "gstreamer1.0-plugins-ugly",
+                "version": "1.18.0-1"
+            },
+            {
+                "name": "gstreamer1.0-plugins-ugly",
+                "version": "1.18.0-1"
+            },
+            {
+                "name": "gufw",
+                "version": "20.10.0-0ubuntu1"
+            },
+            {
+                "name": "gzip",
+                "version": "1.10-2ubuntu1.1"
+            },
+            {
+                "name": "hashcat",
+                "version": "6.1.1+ds1-1"
+            },
+            {
+                "name": "hdparm",
+                "version": "9.58+ds-5"
+            },
+            {
+                "name": "hostname",
+                "version": "3.23"
+            },
+            {
+                "name": "htop",
+                "version": "3.0.2-1"
+            },
+            {
+                "name": "hunspell-ar",
+                "version": "3.2-1.1"
+            },
+            {
+                "name": "hunspell-de-at-frami",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-de-ch-frami",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-de-de-frami",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-en-au",
+                "version": "1:2019.10.06-1"
+            },
+            {
+                "name": "hunspell-en-ca",
+                "version": "1:2019.10.06-1"
+            },
+            {
+                "name": "hunspell-en-gb",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-en-us",
+                "version": "1:2019.10.06-1"
+            },
+            {
+                "name": "hunspell-en-za",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-es",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-fr",
+                "version": "1:6.4.1-1"
+            },
+            {
+                "name": "hunspell-it",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-pt-br",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-pt-pt",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hunspell-ru",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-de",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-en-ca",
+                "version": "0.10"
+            },
+            {
+                "name": "hyphen-en-gb",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-en-us",
+                "version": "2.8.8-7"
+            },
+            {
+                "name": "hyphen-es",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-fr",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-it",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-pt-br",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-pt-pt",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "hyphen-ru",
+                "version": "20030310-1ubuntu3"
+            },
+            {
+                "name": "ibus-chewing",
+                "version": "1.6.1-1"
+            },
+            {
+                "name": "ibus-libpinyin",
+                "version": "1.11.1-3"
+            },
+            {
+                "name": "ibus-mozc",
+                "version": "2.23.2815.102+dfsg-10build1"
+            },
+            {
+                "name": "ibus-table-cangjie3",
+                "version": "1.8.2-3"
+            },
+            {
+                "name": "ibus-table-cangjie5",
+                "version": "1.8.2-3"
+            },
+            {
+                "name": "ibus-table-quick-classic",
+                "version": "1.8.2-3"
+            },
+            {
+                "name": "ibus-table-wubi",
+                "version": "1.8.2-3"
+            },
+            {
+                "name": "init-system-helpers",
+                "version": "1.58"
+            },
+            {
+                "name": "init",
+                "version": "1.58"
+            },
+            {
+                "name": "iproute2",
+                "version": "5.7.0-1ubuntu1"
+            },
+            {
+                "name": "iptables",
+                "version": "1.8.5-3ubuntu2.20.10.2"
+            },
+            {
+                "name": "iputils-ping",
+                "version": "3:20200821-2"
+            },
+            {
+                "name": "iputils-tracepath",
+                "version": "3:20200821-2"
+            },
+            {
+                "name": "ipython3",
+                "version": "7.17.0-1"
+            },
+            {
+                "name": "irqbalance",
+                "version": "1.7.0-1"
+            },
+            {
+                "name": "isc-dhcp-client",
+                "version": "4.4.1-2.1ubuntu10.1"
+            },
+            {
+                "name": "isc-dhcp-common",
+                "version": "4.4.1-2.1ubuntu10.1"
+            },
+            {
+                "name": "kbd",
+                "version": "2.0.4-4ubuntu4"
+            },
+            {
+                "name": "kdeconnect",
+                "version": "20.08.2-0ubuntu1"
+            },
+            {
+                "name": "kernelstub",
+                "version": "3.1.4~1623173088~20.10~afe27ca"
+            },
+            {
+                "name": "keyboard-configuration",
+                "version": "1.195ubuntu2"
+            },
+            {
+                "name": "kmod",
+                "version": "27+20200310-2ubuntu1"
+            },
+            {
+                "name": "language-pack-ar",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-de",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-en",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-es",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-fr",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-ar",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-de",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-en",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-es",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-fr",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-it",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-ja",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-pt",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-ru",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-zh-hans",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-gnome-zh-hant",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-it",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-ja",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-pt",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-ru",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-zh-hans",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-pack-zh-hant",
+                "version": "1:20.10+20201015"
+            },
+            {
+                "name": "language-selector-common",
+                "version": "0.211"
+            },
+            {
+                "name": "less",
+                "version": "551-2"
+            },
+            {
+                "name": "libacl1",
+                "version": "2.2.53-8"
+            },
+            {
+                "name": "libapparmor1",
+                "version": "3.0.0-0ubuntu1"
+            },
+            {
+                "name": "libapt-pkg6.0",
+                "version": "2.1.10ubuntu0.3"
+            },
+            {
+                "name": "libargon2-1",
+                "version": "0~20171227-0.2build20.10.0"
+            },
+            {
+                "name": "libatm1",
+                "version": "1:2.5.1-4"
+            },
+            {
+                "name": "libattr1",
+                "version": "1:2.4.48-5"
+            },
+            {
+                "name": "libaudit-common",
+                "version": "1:2.8.5-3ubuntu1"
+            },
+            {
+                "name": "libaudit1",
+                "version": "1:2.8.5-3ubuntu1"
+            },
+            {
+                "name": "libblkid1",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "libbsd0",
+                "version": "0.10.0-1"
+            },
+            {
+                "name": "libbz2-1.0",
+                "version": "1.0.8-4ubuntu2"
+            },
+            {
+                "name": "libc++1",
+                "version": "1:11.0-51~exp1"
+            },
+            {
+                "name": "libc-bin",
+                "version": "2.32-0ubuntu3.2"
+            },
+            {
+                "name": "libc6",
+                "version": "2.32-0ubuntu3.2"
+            },
+            {
+                "name": "libc6",
+                "version": "2.32-0ubuntu3.2"
+            },
+            {
+                "name": "libcap-ng0",
+                "version": "0.7.9-2.2"
+            },
+            {
+                "name": "libcap2-bin",
+                "version": "1:2.43-1"
+            },
+            {
+                "name": "libcap2",
+                "version": "1:2.43-1"
+            },
+            {
+                "name": "libcom-err2",
+                "version": "1.45.6-1ubuntu1"
+            },
+            {
+                "name": "libcrypt1",
+                "version": "1:4.4.16-1ubuntu1"
+            },
+            {
+                "name": "libcryptsetup12",
+                "version": "2:2.3.3-1ubuntu6"
+            },
+            {
+                "name": "libdb5.3",
+                "version": "5.3.28+dfsg1-0.6ubuntu3"
+            },
+            {
+                "name": "libdbus-1-3",
+                "version": "1.12.20-1ubuntu1"
+            },
+            {
+                "name": "libdebconfclient0",
+                "version": "0.252ubuntu1"
+            },
+            {
+                "name": "libdevmapper1.02.1",
+                "version": "2:1.02.167-1ubuntu3"
+            },
+            {
+                "name": "libelf1",
+                "version": "0.181-1ubuntu0.1"
+            },
+            {
+                "name": "libestr0",
+                "version": "0.1.10-2.1build1"
+            },
+            {
+                "name": "libexpat1",
+                "version": "2.2.9-1build1"
+            },
+            {
+                "name": "libext2fs2",
+                "version": "1.45.6-1ubuntu1"
+            },
+            {
+                "name": "libfastjson4",
+                "version": "0.99.8-2build1"
+            },
+            {
+                "name": "libfdisk1",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "libfribidi0",
+                "version": "1.0.8-2"
+            },
+            {
+                "name": "libgcc-s1",
+                "version": "10.3.0-1ubuntu1~20.10"
+            },
+            {
+                "name": "libgcrypt20",
+                "version": "1.8.5-5ubuntu2"
+            },
+            {
+                "name": "libgdk-pixbuf2.0-0",
+                "version": "2.40.0+dfsg-5ubuntu0.2"
+            },
+            {
+                "name": "libgirepository-1.0-1",
+                "version": "1.66.1-1"
+            },
+            {
+                "name": "libglib2.0-0",
+                "version": "2.66.1-2ubuntu0.2"
+            },
+            {
+                "name": "libglib2.0-data",
+                "version": "2.66.1-2ubuntu0.2"
+            },
+            {
+                "name": "libgmp10",
+                "version": "2:6.2.0+dfsg-6ubuntu1"
+            },
+            {
+                "name": "libgnutls30",
+                "version": "3.6.15-4ubuntu2.1"
+            },
+            {
+                "name": "libgpg-error0",
+                "version": "1.38-2"
+            },
+            {
+                "name": "libidn2-0",
+                "version": "2.3.0-1"
+            },
+            {
+                "name": "libinput-tools",
+                "version": "1.16.2-1ubuntu0.1"
+            },
+            {
+                "name": "libip4tc2",
+                "version": "1.8.5-3ubuntu2.20.10.2"
+            },
+            {
+                "name": "libisc-export1105",
+                "version": "1:9.11.19+dfsg-1ubuntu1"
+            },
+            {
+                "name": "libjcat1",
+                "version": "0.1.3-2"
+            },
+            {
+                "name": "libkmod2",
+                "version": "27+20200310-2ubuntu1"
+            },
+            {
+                "name": "libllvm11",
+                "version": "1:11.0.0-2"
+            },
+            {
+                "name": "liblocale-gettext-perl",
+                "version": "1.07-4"
+            },
+            {
+                "name": "liblz4-1",
+                "version": "1.9.2-2ubuntu0.20.10.1"
+            },
+            {
+                "name": "liblzma5",
+                "version": "5.2.4-1ubuntu1"
+            },
+            {
+                "name": "libmagic-mgc",
+                "version": "1:5.38-5"
+            },
+            {
+                "name": "libmagic1",
+                "version": "1:5.38-5"
+            },
+            {
+                "name": "libmnl0",
+                "version": "1.0.4-3"
+            },
+            {
+                "name": "libmount1",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "libmount1",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "libmpdec2",
+                "version": "2.5.0-4ubuntu1"
+            },
+            {
+                "name": "libncurses6",
+                "version": "6.2-1"
+            },
+            {
+                "name": "libncursesw6",
+                "version": "6.2-1"
+            },
+            {
+                "name": "libnetplan0",
+                "version": "0.102-0ubuntu1~20.10.3"
+            },
+            {
+                "name": "libnewt0.52",
+                "version": "0.52.21-4ubuntu2"
+            },
+            {
+                "name": "libnotify-bin",
+                "version": "0.7.9-1ubuntu2"
+            },
+            {
+                "name": "libp11-kit0",
+                "version": "0.23.21-2ubuntu0.1"
+            },
+            {
+                "name": "libpam-cap",
+                "version": "1:2.43-1"
+            },
+            {
+                "name": "libpam-modules-bin",
+                "version": "1.3.1-5ubuntu6.20.10.1"
+            },
+            {
+                "name": "libpam-modules",
+                "version": "1.3.1-5ubuntu6.20.10.1"
+            },
+            {
+                "name": "libpam-runtime",
+                "version": "1.3.1-5ubuntu6.20.10.1"
+            },
+            {
+                "name": "libpam0g",
+                "version": "1.3.1-5ubuntu6.20.10.1"
+            },
+            {
+                "name": "libpcre2-8-0",
+                "version": "10.34-7"
+            },
+            {
+                "name": "libpcre3",
+                "version": "2:8.39-13"
+            },
+            {
+                "name": "libpopt0",
+                "version": "1.18-1"
+            },
+            {
+                "name": "libprocps8",
+                "version": "2:3.3.16-5ubuntu2.2"
+            },
+            {
+                "name": "libpython3-stdlib",
+                "version": "3.8.6-0ubuntu1"
+            },
+            {
+                "name": "libpython3.8-minimal",
+                "version": "3.8.10-0ubuntu1~20.10.1"
+            },
+            {
+                "name": "libpython3.8-stdlib",
+                "version": "3.8.10-0ubuntu1~20.10.1"
+            },
+            {
+                "name": "libpython3.9",
+                "version": "3.9.5-3~20.10.1"
+            },
+            {
+                "name": "libreadline8",
+                "version": "8.0-4"
+            },
+            {
+                "name": "libreoffice-help-de",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-en-gb",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-en-us",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-es",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-fr",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-it",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-ja",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-pt-br",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-pt",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-ru",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-zh-cn",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-help-zh-tw",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-ar",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-de",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-en-gb",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-en-za",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-es",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-fr",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-it",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-ja",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-pt-br",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-pt",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-ru",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-zh-cn",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libreoffice-l10n-zh-tw",
+                "version": "1:7.0.6-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "libseccomp2",
+                "version": "2.5.1-1ubuntu1~20.10.1"
+            },
+            {
+                "name": "libselinux1",
+                "version": "3.1-2"
+            },
+            {
+                "name": "libsemanage-common",
+                "version": "3.1-1"
+            },
+            {
+                "name": "libsemanage1",
+                "version": "3.1-1"
+            },
+            {
+                "name": "libsepol1",
+                "version": "3.1-1"
+            },
+            {
+                "name": "libslang2",
+                "version": "2.3.2-5"
+            },
+            {
+                "name": "libsmartcols1",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "libsodium23",
+                "version": "1.0.18-1"
+            },
+            {
+                "name": "libsqlite3-0",
+                "version": "3.33.0-1ubuntu0.1"
+            },
+            {
+                "name": "libss2",
+                "version": "1.45.6-1ubuntu1"
+            },
+            {
+                "name": "libssl1.1",
+                "version": "1.1.1f-1ubuntu4.4"
+            },
+            {
+                "name": "libstdc++6",
+                "version": "10.3.0-1ubuntu1~20.10"
+            },
+            {
+                "name": "libtasn1-6",
+                "version": "4.16.0-2"
+            },
+            {
+                "name": "libtext-charwidth-perl",
+                "version": "0.04-10"
+            },
+            {
+                "name": "libtext-iconv-perl",
+                "version": "1.7-7"
+            },
+            {
+                "name": "libtext-wrapi18n-perl",
+                "version": "0.06-9"
+            },
+            {
+                "name": "libtinfo6",
+                "version": "6.2-1"
+            },
+            {
+                "name": "libunistring2",
+                "version": "0.9.10-4"
+            },
+            {
+                "name": "libuuid1",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "libxml2",
+                "version": "2.9.10+dfsg-5ubuntu0.20.10.2"
+            },
+            {
+                "name": "libxtables12",
+                "version": "1.8.5-3ubuntu2.20.10.2"
+            },
+            {
+                "name": "libyaml-0-2",
+                "version": "0.2.2-1"
+            },
+            {
+                "name": "libzip5",
+                "version": "1.5.1-0ubuntu1"
+            },
+            {
+                "name": "libzstd1",
+                "version": "1.4.5+dfsg-4ubuntu0.1"
+            },
+            {
+                "name": "linux-headers-5.11.0-7612-generic",
+                "version": "5.11.0-7612.13~1617215757~20.10~97a8d1a"
+            },
+            {
+                "name": "linux-headers-5.11.0-7612",
+                "version": "5.11.0-7612.13~1617215757~20.10~97a8d1a"
+            },
+            {
+                "name": "linux-headers-5.11.0-7614-generic",
+                "version": "5.11.0-7614.15~1622578982~20.10~383c0a9"
+            },
+            {
+                "name": "linux-headers-5.11.0-7614",
+                "version": "5.11.0-7614.15~1622578982~20.10~383c0a9"
+            },
+            {
+                "name": "linux-image-5.11.0-7612-generic",
+                "version": "5.11.0-7612.13~1617215757~20.10~97a8d1a"
+            },
+            {
+                "name": "linux-image-5.11.0-7614-generic",
+                "version": "5.11.0-7614.15~1622578982~20.10~383c0a9"
+            },
+            {
+                "name": "linux-modules-5.11.0-7612-generic",
+                "version": "5.11.0-7612.13~1617215757~20.10~97a8d1a"
+            },
+            {
+                "name": "linux-modules-5.11.0-7614-generic",
+                "version": "5.11.0-7614.15~1622578982~20.10~383c0a9"
+            },
+            {
+                "name": "linux-modules-extra-5.11.0-7612-generic",
+                "version": "5.11.0-7612.13~1617215757~20.10~97a8d1a"
+            },
+            {
+                "name": "linux-modules-extra-5.11.0-7614-generic",
+                "version": "5.11.0-7614.15~1622578982~20.10~383c0a9"
+            },
+            {
+                "name": "lm-sensors",
+                "version": "1:3.6.0-2ubuntu1"
+            },
+            {
+                "name": "locales",
+                "version": "2.32-0ubuntu3.2"
+            },
+            {
+                "name": "login",
+                "version": "1:4.8.1-1ubuntu6"
+            },
+            {
+                "name": "logrotate",
+                "version": "3.14.0-4ubuntu5"
+            },
+            {
+                "name": "logsave",
+                "version": "1.45.6-1ubuntu1"
+            },
+            {
+                "name": "lsb-base",
+                "version": "11.1.0ubuntu2"
+            },
+            {
+                "name": "lsb-release",
+                "version": "11.1.0ubuntu2"
+            },
+            {
+                "name": "lshw",
+                "version": "02.18.85-0.3ubuntu2.20.10.1"
+            },
+            {
+                "name": "lsof",
+                "version": "4.93.2+dfsg-1ubuntu0.20.10.1"
+            },
+            {
+                "name": "ltrace",
+                "version": "0.7.3-6.1ubuntu2"
+            },
+            {
+                "name": "man-db",
+                "version": "2.9.3-2"
+            },
+            {
+                "name": "manpages",
+                "version": "5.08-1"
+            },
+            {
+                "name": "mawk",
+                "version": "1.3.4.20200120-2"
+            },
+            {
+                "name": "mime-support",
+                "version": "3.64ubuntu1"
+            },
+            {
+                "name": "mount",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "mtr-tiny",
+                "version": "0.93-2"
+            },
+            {
+                "name": "mysql-server",
+                "version": "8.0.25-0ubuntu0.20.10.1"
+            },
+            {
+                "name": "mythes-ar",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "mythes-de-ch",
+                "version": "20160424-3"
+            },
+            {
+                "name": "mythes-de",
+                "version": "20160424-3"
+            },
+            {
+                "name": "mythes-en-au",
+                "version": "2.1-5.4"
+            },
+            {
+                "name": "mythes-en-us",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "mythes-es",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "mythes-fr",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "mythes-it",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "mythes-pt-pt",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "mythes-ru",
+                "version": "1:7.0.0-1"
+            },
+            {
+                "name": "nano",
+                "version": "5.2-1"
+            },
+            {
+                "name": "ncurses-base",
+                "version": "6.2-1"
+            },
+            {
+                "name": "ncurses-bin",
+                "version": "6.2-1"
+            },
+            {
+                "name": "neofetch",
+                "version": "7.1.0-1"
+            },
+            {
+                "name": "netbase",
+                "version": "6.1"
+            },
+            {
+                "name": "netcat-openbsd",
+                "version": "1.217-2ubuntu1"
+            },
+            {
+                "name": "netplan.io",
+                "version": "0.102-0ubuntu1~20.10.3"
+            },
+            {
+                "name": "networkd-dispatcher",
+                "version": "2.0.1-1"
+            },
+            {
+                "name": "nmap",
+                "version": "7.91+dfsg1-1"
+            },
+            {
+                "name": "ntfs-3g",
+                "version": "1:2017.3.23AR.3-3ubuntu2"
+            },
+            {
+                "name": "openssh-client",
+                "version": "1:8.3p1-1ubuntu0.1"
+            },
+            {
+                "name": "openssl",
+                "version": "1.1.1f-1ubuntu4.4"
+            },
+            {
+                "name": "parted",
+                "version": "3.3-4ubuntu0.20.10.1"
+            },
+            {
+                "name": "passwd",
+                "version": "1:4.8.1-1ubuntu6"
+            },
+            {
+                "name": "pciutils",
+                "version": "1:3.7.0-2"
+            },
+            {
+                "name": "perl-base",
+                "version": "5.30.3-4"
+            },
+            {
+                "name": "plymouth-theme-ubuntu-text",
+                "version": "0.9.5-0ubuntu2.1"
+            },
+            {
+                "name": "plymouth",
+                "version": "0.9.5-0ubuntu2.1"
+            },
+            {
+                "name": "pop-desktop",
+                "version": "1.5.0~1608319383~20.10~825bd26"
+            },
+            {
+                "name": "poppler-data",
+                "version": "0.4.9-2"
+            },
+            {
+                "name": "popularity-contest",
+                "version": "1.70ubuntu1"
+            },
+            {
+                "name": "portaudio19-dev",
+                "version": "19.6.0-1.1"
+            },
+            {
+                "name": "procps",
+                "version": "2:3.3.16-5ubuntu2.2"
+            },
+            {
+                "name": "psmisc",
+                "version": "23.3-1"
+            },
+            {
+                "name": "pulseaudio-utils",
+                "version": "1:13.99.2-1ubuntu2.3"
+            },
+            {
+                "name": "python-all-dev",
+                "version": "2.7.18-2"
+            },
+            {
+                "name": "python-pip-whl",
+                "version": "20.1.1-2"
+            },
+            {
+                "name": "python2",
+                "version": "2.7.18-2"
+            },
+            {
+                "name": "python3-cffi-backend",
+                "version": "1.14.2-1"
+            },
+            {
+                "name": "python3-dbus",
+                "version": "1.2.16-3"
+            },
+            {
+                "name": "python3-gi",
+                "version": "3.38.0-1"
+            },
+            {
+                "name": "python3-minimal",
+                "version": "3.8.6-0ubuntu1"
+            },
+            {
+                "name": "python3-nacl",
+                "version": "1.4.0-1"
+            },
+            {
+                "name": "python3-netifaces",
+                "version": "0.10.4-1ubuntu4"
+            },
+            {
+                "name": "python3-pip",
+                "version": "20.1.1-2"
+            },
+            {
+                "name": "python3-pkg-resources",
+                "version": "49.3.1-2"
+            },
+            {
+                "name": "python3-pymacaroons",
+                "version": "0.13.0-3"
+            },
+            {
+                "name": "python3-setuptools",
+                "version": "49.3.1-2"
+            },
+            {
+                "name": "python3-six",
+                "version": "1.15.0-1"
+            },
+            {
+                "name": "python3-stdeb",
+                "version": "0.8.5-3"
+            },
+            {
+                "name": "python3-tk",
+                "version": "3.8.10-0ubuntu1~20.10"
+            },
+            {
+                "name": "python3-yaml",
+                "version": "5.3.1-2ubuntu0.1"
+            },
+            {
+                "name": "python3.8-minimal",
+                "version": "3.8.10-0ubuntu1~20.10.1"
+            },
+            {
+                "name": "python3.8",
+                "version": "3.8.10-0ubuntu1~20.10.1"
+            },
+            {
+                "name": "python3.9",
+                "version": "3.9.5-3~20.10.1"
+            },
+            {
+                "name": "python3",
+                "version": "3.8.6-0ubuntu1"
+            },
+            {
+                "name": "readline-common",
+                "version": "8.0-4"
+            },
+            {
+                "name": "rsync",
+                "version": "3.2.3-2ubuntu1"
+            },
+            {
+                "name": "rsyslog",
+                "version": "8.2006.0-2ubuntu1"
+            },
+            {
+                "name": "sbsigntool",
+                "version": "0.9.2-2ubuntu4"
+            },
+            {
+                "name": "secureboot-db",
+                "version": "1.8"
+            },
+            {
+                "name": "sed",
+                "version": "4.7-1ubuntu1"
+            },
+            {
+                "name": "sensible-utils",
+                "version": "0.0.13"
+            },
+            {
+                "name": "sessioninstaller",
+                "version": "0.20+pop0~1599666521~20.10~5170b7a"
+            },
+            {
+                "name": "shared-mime-info",
+                "version": "2.0-1"
+            },
+            {
+                "name": "snapd",
+                "version": "2.51.1+20.10"
+            },
+            {
+                "name": "software-properties-common",
+                "version": "0.99.3.1"
+            },
+            {
+                "name": "strace",
+                "version": "5.5-3ubuntu1"
+            },
+            {
+                "name": "sudo",
+                "version": "1.9.1-1ubuntu1.1"
+            },
+            {
+                "name": "synaptic",
+                "version": "0.84.6ubuntu5"
+            },
+            {
+                "name": "system76-acpi-dkms",
+                "version": "1.0.2~1600812457~20.10~0bc966c"
+            },
+            {
+                "name": "system76-dkms",
+                "version": "1.0.12~1622747152~20.10~63cf134"
+            },
+            {
+                "name": "system76-io-dkms",
+                "version": "1.0.1~1616424744~20.10~57c15ff"
+            },
+            {
+                "name": "sysvinit-utils",
+                "version": "2.96-3ubuntu1"
+            },
+            {
+                "name": "tar",
+                "version": "1.30+dfsg-7ubuntu0.20.10.1"
+            },
+            {
+                "name": "tcpdump",
+                "version": "4.9.3-6"
+            },
+            {
+                "name": "telegram-desktop",
+                "version": "2.2.0+ds-3"
+            },
+            {
+                "name": "telnet",
+                "version": "0.17-41.2build1"
+            },
+            {
+                "name": "thermald",
+                "version": "2.3-4ubuntu1"
+            },
+            {
+                "name": "time",
+                "version": "1.7-25.1build2"
+            },
+            {
+                "name": "tlp-rdw",
+                "version": "1.3.1-2"
+            },
+            {
+                "name": "tlp",
+                "version": "1.3.1-2"
+            },
+            {
+                "name": "torbrowser-launcher",
+                "version": "0.3.2-14"
+            },
+            {
+                "name": "tzdata",
+                "version": "2021a-0ubuntu0.20.10"
+            },
+            {
+                "name": "ubuntu-advantage-tools",
+                "version": "27.1~20.10.1"
+            },
+            {
+                "name": "ubuntu-keyring",
+                "version": "2020.06.17.3"
+            },
+            {
+                "name": "ubuntu-minimal",
+                "version": "1.459"
+            },
+            {
+                "name": "ubuntu-restricted-extras",
+                "version": "67"
+            },
+            {
+                "name": "ucf",
+                "version": "3.0043"
+            },
+            {
+                "name": "ufw",
+                "version": "0.36-7"
+            },
+            {
+                "name": "update-manager-core",
+                "version": "1:20.10.7"
+            },
+            {
+                "name": "usbutils",
+                "version": "1:012-2"
+            },
+            {
+                "name": "util-linux",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "uuid-runtime",
+                "version": "2.36-3ubuntu1"
+            },
+            {
+                "name": "vim-common",
+                "version": "2:8.2.0716-3ubuntu2"
+            },
+            {
+                "name": "vim-tiny",
+                "version": "2:8.2.0716-3ubuntu2"
+            },
+            {
+                "name": "vlc",
+                "version": "3.0.11.1-2"
+            },
+            {
+                "name": "wamerican",
+                "version": "2019.10.06-1"
+            },
+            {
+                "name": "wbrazilian",
+                "version": "3.0~beta4-22"
+            },
+            {
+                "name": "wbritish",
+                "version": "2019.10.06-1"
+            },
+            {
+                "name": "wfrench",
+                "version": "1.2.6-1"
+            },
+            {
+                "name": "wget",
+                "version": "1.20.3-1ubuntu1"
+            },
+            {
+                "name": "whiptail",
+                "version": "0.52.21-4ubuntu2"
+            },
+            {
+                "name": "wine-development",
+                "version": "5.5-5ubuntu1"
+            },
+            {
+                "name": "wine-stable",
+                "version": "3.0.1ubuntu1"
+            },
+            {
+                "name": "wine",
+                "version": "5.0-3ubuntu1"
+            },
+            {
+                "name": "winetricks",
+                "version": "0.0+20200412-1"
+            },
+            {
+                "name": "witalian",
+                "version": "1.10"
+            },
+            {
+                "name": "wmctrl",
+                "version": "1.07-7build1"
+            },
+            {
+                "name": "wngerman",
+                "version": "20161207-8"
+            },
+            {
+                "name": "wogerman",
+                "version": "1:2-35"
+            },
+            {
+                "name": "wportuguese",
+                "version": "20190329-3"
+            },
+            {
+                "name": "wspanish",
+                "version": "1.0.28"
+            },
+            {
+                "name": "wswiss",
+                "version": "20161207-8"
+            },
+            {
+                "name": "x11-utils",
+                "version": "7.7+5"
+            },
+            {
+                "name": "xdg-user-dirs",
+                "version": "0.17-2ubuntu2"
+            },
+            {
+                "name": "xdotool",
+                "version": "1:3.20160805.1-4"
+            },
+            {
+                "name": "xkb-data",
+                "version": "2.29-2"
+            },
+            {
+                "name": "xxd",
+                "version": "2:8.2.0716-3ubuntu2"
+            },
+            {
+                "name": "xz-utils",
+                "version": "5.2.4-1ubuntu1"
+            },
+            {
+                "name": "zlib1g",
+                "version": "1:1.2.11.dfsg-2ubuntu4"
+            },
+            {
+                "name": "zsh",
+                "version": "5.8-5"
+            }
+        ],
+        "snap": {}
+    }
+}

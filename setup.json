@@ -1,0 +1,27 @@
+{
+    "tasks": {
+        "apt": {
+            "command": "apt install ${}",
+            "arguments": [
+                "zenkit"
+            ]
+        },
+        "snap": {
+            "install": "apt install snapd",
+            "command": "snap install ${}",
+            "arguments": [
+                "mailspring",
+                "shotcut"
+            ]
+        },
+        "flatpak": {
+            "install": "apt install flatpak",
+            "command": "flatpak install ${}",
+            "arguments": [
+                "openboard",
+                "postman",
+                "intellij"
+            ]
+        }
+    }
+}
