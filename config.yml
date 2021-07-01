@@ -7,7 +7,7 @@ directories:
 
 # Applications
 applications:
-
+  
   # Apt packages
   apt:
     - zenkit: 

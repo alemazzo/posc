@@ -1,5 +1,10 @@
 import json
 from posc import Operation, Task
+from posc.arg_parser import getParser
+
+parser = getParser()
+parser.parse_args()
+
 
 print("Loading tasks...")
 configuration = dict()

@@ -1,8 +1,13 @@
+#!/bin/python3
 from yaml import load, dump
 try:
     from yaml import CLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import Loader, Dumper
+
+from posc.arg_parser import getParser
+parser = getParser()
+parser.parse_args()
 
 # ...
 stream = open('config.yml')
