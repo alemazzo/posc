@@ -7,7 +7,7 @@ directories:
 
 # Applications
 applications:
-  
+
   # Apt packages
   apt:
     - zenkit: 
@@ -17,10 +17,10 @@ applications:
   # Snap packages
   snap:
     - mailspring:
-        name: mailspring
         version: 1.1.1
     - shotcut:
-        name: shotcut
+        version: any
+    - telegram-desktop:
         version: 2.2.2
 
   # Flatpak packages
