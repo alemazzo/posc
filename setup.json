@@ -1,15 +1,16 @@
 {
-    "tasks": {
+    "package-manager": "apt",
+    "applications": {
         "apt": {
             "command": "apt install ${}",
-            "arguments": [
+            "applications": [
                 "zenkit"
             ]
         },
         "snap": {
             "install": "apt install snapd",
             "command": "snap install ${}",
-            "arguments": [
+            "applications": [
                 "mailspring",
                 "shotcut"
             ]
@@ -17,11 +18,48 @@
         "flatpak": {
             "install": "apt install flatpak",
             "command": "flatpak install ${}",
-            "arguments": [
+            "applications": [
                 "openboard",
                 "postman",
                 "intellij"
             ]
         }
-    }
+    },
+    "directory": [
+        {
+            "base": "~/Documents",
+            "name": "Universita"
+        }
+    ],
+    "tasks": [
+        {
+            "name": "full-upgrade",
+            "operations": [
+                "sudo apt full-upgrade"
+            ]
+        },
+        {
+            "name": "clone jhaturanga",
+            "requirements": [
+                {
+                    "name": "install groovy",
+                    "operations": [
+                        "apt install groovy"
+                    ]
+                }
+            ],
+            "operations": [
+                "sudo apt upgrade",
+                "sudo apt update"
+            ]
+        },
+        {
+            "name": "oh-my-zsh install",
+            "requirements": [],
+            "operations": [
+                "git clone ..",
+                "sudo make"
+            ]
+        }
+    ]
 }
