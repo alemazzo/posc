@@ -1,6 +1,5 @@
 import json
-from module.operation import Operation
-from module.task import Task
+from posc import Operation, Task
 
 print("Loading tasks...")
 configuration = dict()

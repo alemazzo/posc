@@ -1,4 +1,4 @@
-from module.operation import Operation
+from posc import Operation
 
 
 class Task:
