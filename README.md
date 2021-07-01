@@ -1,5 +1,5 @@
-# OSetup
-Operation System Migrator.
+# POSC
+Python Operating System Configurator
 
 ## Applications
 Write your application setup file and install all of them in a time without losing time anymore.
