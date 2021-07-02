@@ -1,5 +1,5 @@
 #!/bin/python3
-# Moduels import
+# Modules import
 from yaml import load, dump
 try:
     from yaml import CLoader as Loader, CDumper as Dumper
