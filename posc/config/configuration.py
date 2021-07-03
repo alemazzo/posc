@@ -24,7 +24,7 @@ class Configuration:
         print(f"Executing {taskName}")
         print(task)
 
-    def printApplicationsType(self):
+    def printApplicationTypes(self):
         for applicationType in self.applications:
             print(f'[AT] {applicationType}')
 
