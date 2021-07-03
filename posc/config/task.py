@@ -1,4 +1,3 @@
-from posc import Operation
 
 
 class Task:
