@@ -3,6 +3,7 @@ package: apt
 directories:
   - ~/Documents/Universita
   - ~/Scripts
+  - ~/Test
 
 # Applications
 applications:
