@@ -9,6 +9,12 @@ def get_argument_parser():
     parser.add_argument('file',
                         help='YAML configuration file')
 
+    parser.add_argument('--tasks',  action="store_true",
+                        help='Print available tasks')
+
+    parser.add_argument('-t',
+                        help='Task to execute ([all] for executing all tasks)')
+
     return parser
 
 
