@@ -1,3 +1,4 @@
-from .configuration import Configuration
-from .task import Task
-from .operation import Operation
+from .configuration import *
+from .task import *
+from .operation import *
+from .parser import *
