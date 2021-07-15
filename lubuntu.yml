@@ -1,0 +1,55 @@
+# General purpose tasks
+tasks:
+  audacious:
+    commands:
+      - sudo apt remove audacious
+      - sudo apt autoremove
+      - sudo apt install audacious
+  update:
+    commands:
+      - sudo apt upgrade
+      - sudo apt update
+
+  github-ssh:
+    commands:
+      - ssh-keygen -t ed25519 -C "alemazzoli97@gmail.com" -f .ssh/github -N ""
+
+  snap-install:
+    after: oh-my-zsh
+    commands:
+      - sudo apt install snapd
+      - mkdir -p ~/.config/environment.d
+      - echo "PATH=$PATH:/snap/bin\nXDG_DATA_DIRS=\"${XDG_DATA_DIRS:-/usr/local/share:/usr/share}:/var/lib/snapd/desktop\"" > ~/.config/environment.d/60-snap-icons-and-bin.conf
+
+  brave:
+    commands:
+      - sudo apt install apt-transport-https curl,
+      - sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg,
+      - echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list,
+      - sudo apt update,
+      - sudo apt install brave-browser
+
+  oh-my-zsh:
+    commands:
+      - sudo apt install curl zsh
+      - sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+  anaconda:
+    commands:
+      - sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+      - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh -O ~/Downloads/Anaconda3-2020.11-Linux-x86_64.sh
+      - cd ~/Downloads
+      - sudo chmod +x Anaconda3-2020.11-Linux-x86_64.sh
+      - ./Anaconda3-2020.11-Linux-x86_64.sh
+      - sudo touch /usr/share/applications/anaconda.desktop
+      - sudo su
+      - echo "
+        [Desktop Entry]
+        Type=Application
+        Encoding=UTF-8
+        Name=Anaconda Navigator
+        Comment=Anaconda Navigator
+        Exec=/home/alessandro/anaconda3/bin/anaconda-navigator
+        Terminal=false
+        " > /usr/share/applications/anaconda.desktop
+      - exit

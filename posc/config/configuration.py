@@ -32,12 +32,17 @@ class Configuration:
             print(f'[T] {task}')
 
     def executeTask(self, taskName):
-        if not taskName in self.tasks:
+        if taskName == 'all':
+            for task in self.tasks:
+                print(f"Executing {task}")
+                self.tasks[task].executeTask()
+        elif not taskName in self.tasks:
             print(f"Task : {taskName} is not a valid task name")
             return
-        task = self.tasks[taskName]
-        print(f"Executing {taskName}")
-        task.executeTask()
+        else:
+            task = self.tasks[taskName]
+            print(f"Executing {taskName}")
+            task.executeTask()
 
     def printApplicationTypes(self):
         for applicationType in self.applications:
