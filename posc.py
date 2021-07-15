@@ -5,23 +5,6 @@
 # My imports
 from posc import Configuration, parse_arguments
 
-
-def explode(data):
-    # Load directories
-    directories = data["directories"]
-
-    # Load applications
-    applications = data["applications"]
-    apt_applications = applications["apt"]
-    snap_applications = applications["snap"]
-    flatpak_applications = applications["flatpak"]
-
-    # Load tasks
-    tasks = data["tasks"]
-
-    return applications, tasks
-
-
 if __name__ == "__main__":
     args = parse_arguments()
     configurationFilePath = args.file

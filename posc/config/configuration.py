@@ -5,8 +5,16 @@ class Configuration:
 
     @staticmethod
     def configurationfromYamlFile(file: str):
+        from posc import Application
         data = loader.loadYamlFromFile(file)
-        return Configuration(data["tasks"], data["applications"])
+
+        applications = dict()
+
+        for key in data["applications"].keys():
+            applications[key] = [Application.fromObject(
+                app, key) for app in data["applications"][key]]
+
+        return Configuration(data["tasks"], applications)
 
     def __init__(self, tasks, applications):
         self.tasks = tasks
@@ -28,25 +36,34 @@ class Configuration:
         for applicationType in self.applications:
             print(f'[AT] {applicationType}')
 
-    def printApplicationsInSpecifiedType(self, applicationTypeName):
+    def checkApplicationType(self, applicationTypeName):
         if not applicationTypeName in self.applications:
             print(
                 f"Application Type : {applicationTypeName} is not a valid application type name")
-            return
+            return False
+        return True
 
+    def checkApplicationName(self, applicationName, apps):
+        if not applicationName in apps:
+            print(
+                f"Application : {applicationName} is not a valid application for type {applicationTypeName}")
+            return False
+        return True
+
+    def printApplicationsInSpecifiedType(self, applicationTypeName):
+        if not self.checkApplicationType(applicationTypeName):
+            return
         apps = self.applications[applicationTypeName]
         for app in apps:
             print(f'[A] {app}')
 
     def installApplication(self, applicationTypeName, applicationName):
-        if not applicationTypeName in self.applications:
-            print(
-                f"Application Type : {applicationTypeName} is not a valid application type name")
+        if not self.checkApplicationType(applicationTypeName):
             return
         apps = self.applications[applicationTypeName]
-        if not applicationName in apps:
-            print(
-                f"Application : {applicationName} is not a valid application for type {applicationTypeName}")
+        if not self.checkApplicationName(applicationName, apps):
             return
+        self._installApp(applicationTypeName, applicationName)
 
-        print(f"Installing {applicationName} [{applicationTypeName}]")
+    def _installApp(self, appType, appName):
+        print(f"Installing {appName} [{appType}]")

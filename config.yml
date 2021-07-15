@@ -10,7 +10,6 @@ applications:
   # Apt packages
   apt:
     - zenkit:
-        name: zenkit
         version: 1.1.1
 
   # Snap packages
