@@ -5,16 +5,23 @@ class Configuration:
 
     @staticmethod
     def configurationfromYamlFile(file: str):
-        from posc import Application
+        from posc import Application, Task, Operation
         data = loader.loadYamlFromFile(file)
 
         applications = dict()
+        tasks = dict()
+
+        for taskname in data["tasks"]:
+            operations = [Operation(command)
+                          for command in data["tasks"][taskname]["commands"]]
+            tasks[taskname] = Task(
+                taskname, operations)
 
         for key in data["applications"].keys():
             applications[key] = [Application.fromObject(
                 app, key) for app in data["applications"][key]]
 
-        return Configuration(data["tasks"], applications)
+        return Configuration(tasks, applications)
 
     def __init__(self, tasks, applications):
         self.tasks = tasks
@@ -28,9 +35,9 @@ class Configuration:
         if not taskName in self.tasks:
             print(f"Task : {taskName} is not a valid task name")
             return
-        task = tasks[taskName]
+        task = self.tasks[taskName]
         print(f"Executing {taskName}")
-        print(task)
+        task.executeTask()
 
     def printApplicationTypes(self):
         for applicationType in self.applications:

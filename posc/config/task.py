@@ -20,3 +20,6 @@ class Task:
         print("  "*(depth + 1) + f"Executing Task: {self.name}")
         for operation in self.operations:
             operation.execute(depth + 2)
+
+    def __str__(self):
+        return self.name
