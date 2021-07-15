@@ -29,6 +29,16 @@ applications:
 
 # General purpose tasks
 tasks:
+  audacious:
+    commands:
+      - sudo apt remove audacious
+      - sudo apt autoremove
+      - sudo apt install audacious
+  update:
+    commands:
+      - sudo apt upgrade
+      - sudo apt update
+
   github-ssh:
     commands:
       - ssh-keygen -t ed25519 -C "alemazzoli97@gmail.com" -f .ssh/github -N ""
