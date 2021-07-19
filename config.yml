@@ -41,7 +41,8 @@ tasks:
 
   github-ssh:
     commands:
-      - ssh-keygen -t ed25519 -C "alemazzoli97@gmail.com" -f .ssh/github -N ""
+      - mkdir ~/.ssh
+      - ssh-keygen -t ed25519 -C "alemazzoli97@gmail.com" -f ~/.ssh/github -N ""
 
   snap-install:
     after: oh-my-zsh
@@ -52,10 +53,10 @@ tasks:
 
   brave:
     commands:
-      - sudo apt install apt-transport-https curl,
-      - sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg,
-      - echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list,
-      - sudo apt update,
+      - sudo apt install apt-transport-https curl
+      - sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+      - echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+      - sudo apt update
       - sudo apt install brave-browser
 
   oh-my-zsh:
@@ -71,8 +72,8 @@ tasks:
       - sudo chmod +x Anaconda3-2020.11-Linux-x86_64.sh
       - ./Anaconda3-2020.11-Linux-x86_64.sh
       - sudo touch /usr/share/applications/anaconda.desktop
-      - sudo su
-      - echo "
+      - |
+        sudo echo "
         [Desktop Entry]
         Type=Application
         Encoding=UTF-8
@@ -81,4 +82,3 @@ tasks:
         Exec=/home/alessandro/anaconda3/bin/anaconda-navigator
         Terminal=false
         " > /usr/share/applications/anaconda.desktop
-      - exit
